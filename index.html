@@ -50,8 +50,8 @@
     </div>
     <div class="social">
       <ul class="social-icon">
-        <li href="#" class="fa fa-instagram"></li>
-        <li href="#" class="fa fa-facebook-square"></li>
+        <li href="#" class="fa fa-instagram hvr-sink"></li>
+        <li href="#" class="fa fa-facebook-square hvr-float"></li>
       </ul>
       <button>Contact</button>
     </div>
@@ -79,7 +79,7 @@
         </div>
       </div>
     </div>
-    <div class="row m0 right_dir">
+    <div class="row m0 right_dir ">
       <div class="col-lg-6 p0">
         <div class="success_img ">
           <img class="img-responsive" src="image/image.jpeg" alt="">
@@ -93,7 +93,7 @@
       </div>
     </div>
     <div class="row m0">
-      <div class="col-lg-6 p0">
+      <div class="col-lg-6  p0">
         <div class="mission_text">
           <h4>Headlight Tint</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam quis nostrud.</p>
@@ -112,7 +112,7 @@
   <section class="project_area">
     <div class="row m0">
       <div class="col-lg-4 col-md-6 p0">
-        <div class="project_item">
+        <div class="project_item hvr-float">
           <img src="image/roof-2.jpg" alt="">
           <div class="hover_text">
             <h4>Honda <br />Roof/Spoiler/Chrome Delete</h4>
@@ -120,7 +120,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6 p0">
-        <div class="project_item">
+        <div class="project_item hvr-float">
           <img src="image/grill-1.jpg" alt="">
           <div class="hover_text">
             <h4>Lexus <br />grill</h4>
@@ -128,7 +128,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6 p0">
-        <div class="project_item">
+        <div class="project_item hvr-float">
           <img src="image/roof-1.jpg" alt="">
           <div class="hover_text">
             <h4>Honda <br />Roof</h4>
@@ -136,7 +136,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6 p0">
-        <div class="project_item">
+        <div class="project_item hvr-float">
           <img src="image/350z-bumper.jpg" alt="">
           <div class="hover_text">
             <h4>350z <br />Bumper</h4>
@@ -144,7 +144,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6 p0">
-        <div class="project_item">
+        <div class="project_item hvr-float">
           <img src="image/stripes.jpg" alt="">
           <div class="hover_text">
             <h4>Challanger <br />Hood/Stripes</h4>
@@ -152,14 +152,55 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6 p0">
-        <div class="project_item">
+        <div class="project_item hvr-float">
           <img src="image/handle-1.jpg" alt="">
-          <div class="hover_text">
+          <div class="hover_text hvr-sink">
             <h4>350z <br />Roof/Handles</h4>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <section class = "contact_area" id = "contact">
+  <div class="container">
+    <div class="tittle wow fadeInUp ">
+        <h2>Contact</h2>
+    </div>
+    <div class= "row">
+      <form name="sentMessage"  id = "contactform" method="POST" novalidate>
+          <div class="row contact_row">
+            <div class="col-md-4">
+              <div class="form-group">
+                <input type="text" name="_gotcha" style="display:none" />
+                <input name="name" type="text" class="form-control" placeholder="Name" required="required">
+<input type="hidden" name="_subject" value="Website contact" />
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <input name="phone number" type="text" novalidate class="form-control" placeholder="Phone Number">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <input name="email" type="email" class="form-control" placeholder="Email" required>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+                <div class="col-md-12">
+            <div class="form-group">
+
+              <textarea name="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-default">Send Message</button>
+        </form>
+    </div>
+</section>
 
   <script src="js/bootstrap.min.js"></script>
