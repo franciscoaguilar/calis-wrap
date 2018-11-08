@@ -1,0 +1,39 @@
+
+.mission_text{
+	text-align: center;
+	margin-bottom: 70px;
+	max-width: 400px;
+	h4{
+		color: $primary;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+		font-size: 24px;
+	}
+	p{
+		margin-bottom: 0px;
+	}
+	&:last-child{
+		margin-bottom: 0px;
+	}
+}
+
+.success_area{
+	overflow: hidden;
+	.success_img{
+		overflow: hidden;
+	}
+	.col-lg-6{
+		vertical-align: middle;
+		align-self: center;
+	}
+	.mission_text{
+		float: right;
+		margin-right: 130px;
+	}
+	.right_dir{
+		.mission_text{
+			float: none;
+			margin-left: 130px;
+		}
+	}
+}

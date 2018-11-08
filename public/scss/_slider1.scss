@@ -1,0 +1,97 @@
+body {
+	background: $darken;
+	font-size: 15px;
+	line-height: 1.8;
+	font-weight: 300;
+	color: lighten($black,50%);
+
+}
+@import "../css/keyframes.css";
+/*font Variables*/
+$os: 'Oswald', sans-serif;
+$ral: 'Raleway', sans-serif;
+
+
+/*Color Variables*/
+$baseColor: #ce9c6b;
+$dip: #000000;
+$pfont: #666666;
+$font-secondary: 'Cookie', Arial, sans-serif, cursive;
+// slider
+$black: #000;
+$darken: #1b1b1b;
+$primary: #ce9c6b;
+$white: white;
+
+
+
+
+.hero-image{
+	width: 100%;
+	height: 750px;
+	min-height: 750px;
+		content: '';
+		background-color: rgba(0,0,0,.6); // Tint color
+		background-blend-mode: multiply;
+	background-position: center center !important;
+	background-size: cover;
+background-repeat: no-repeat;
+	z-index: 0;
+	.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+	      .fa-play-circle {
+
+	        font-size: 70px;
+	        opacity: 0.4;
+
+	      }
+				.fa-play-circle:hover{
+					color: $primary;
+					opacity: 1;
+				}
+
+}
+.social{
+	text-align: center;
+	position: absolute;
+	top: 80%;
+	left: 80%;
+	transform: translate(-80%, -80%);
+	.social-icon{
+
+		 font-size: 40px;
+		 left: 0px;
+		 	 animation: rubberBand, 4s, infinite;
+		 li:hover{
+
+			 color: $primary;
+			 animation: rubberBand, 4s, infinite;
+		 }
+	}
+
+	button {
+		border: linear;
+		outline: 0;
+		  font-weight: 900;
+		display: inline-block;
+		padding: 10px 25px;
+		color: white;
+
+		background-color: transparent;
+		text-align: center;
+		cursor: pointer;
+		z-index: 1;
+
+	}
+button:hover{
+	background-color: $primary;
+	color: black;
+}
+}
+}

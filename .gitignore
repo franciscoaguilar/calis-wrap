@@ -1,5 +1,7 @@
 img
 js
 node_modules
-scss
+.firebase
+.firebaserc
+firebase.json
 vendors

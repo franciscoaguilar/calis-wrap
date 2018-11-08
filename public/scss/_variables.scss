@@ -1,0 +1,33 @@
+/*font Variables*/
+$os: 'Oswald', sans-serif;
+$ral: 'Raleway', sans-serif;
+
+
+/*Color Variables*/
+$baseColor: #ce9c6b;
+$dip: #000000;
+$pfont: #666666;
+$font-secondary: 'Cookie', Arial, sans-serif, cursive;
+// slider
+$black: #000;
+$darken: #1b1b1b;
+$primary: #ce9c6b;
+$white: white;
+
+
+/*=================== fonts ====================*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Raleway:300,400,500,600,700');
+
+// Mixins
+@mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay;
+}
+
+// Placeholder Mixins
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
